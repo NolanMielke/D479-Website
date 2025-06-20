@@ -157,6 +157,27 @@ label {
     margin: auto 0px auto 0px;
 }
 
+.article {
+  display: grid;
+  margin: 50px;
+  background-color: darkslategray;
+  border-radius: 15px;
+  grid-template-areas:
+  'a-img in'
+  'a-img img'
+  'a-img nav';
+}
+
+.article p {
+  margin-left: 25px;
+}
+
+.a-img {
+  width: 450px;
+  border-radius: 15px 0px 0px 15px;
+  grid-area: a-img;
+}
+
 .intro {
   grid-area: in;
 }
